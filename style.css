@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'ProductSans';
+    src: url('https://fonts.gstatic.com/s/productsans/v12/pxicypQkot1TnFhsFMOfGShdrPKbT2lBgGygpg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquare';
+    font-weight: normal;
+    src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareB.eot');
+    src: url('https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareB.eot?#iefix') format('embedded-opentype'), url('https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareB.woff') format('woff'), url('https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareB.ttf') format('truetype');
+}
+* {
+    font-family: 'ProductSans', 'NanumSquare', Arial, Helvetica, sans-serif;
+}
+#entry {
+    height: 36vw;
+    width: 64vw;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+}
+.menu {
+    margin: 0 !important;
+}
